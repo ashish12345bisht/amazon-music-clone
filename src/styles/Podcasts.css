@@ -1,0 +1,48 @@
+body {
+  background-color: #333;
+}
+.podcasts__banner__top {
+  height: 500px;
+  background-image: url("https://ik.imagekit.io/cooldunlin185005/woice_0axWpGNfA.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648209538095"),
+    url("https://ik.imagekit.io/cooldunlin185005/woice_0axWpGNfA.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1648209538095"),
+    linear-gradient(90deg, black, transparent);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: right, center, right;
+  background-size: 50vw, 100vw, 100vw;
+  padding-top: 100px;
+  padding-left: 2em;
+  overflow: hidden;
+  z-index: 1;
+  color: white;
+}
+.podcasts__banner__top > h1 {
+  font-weight: 900;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3em;
+}
+.podcasts__banner__bottom {
+  background: linear-gradient(0deg, rgb(20, 20, 20), transparent);
+  z-index: 5;
+  width: 100vw;
+  height: 500px;
+  margin-top: -500px;
+}
+.podcasts__banner__top >a> button {
+  background-color: #333;
+  padding: 0.5em 1em;
+  font-size: 1.5em;
+  border-radius: 2em;
+  color: white;
+  border: none;
+}
+.homepage__slider {
+  display: flex;
+  overflow: scroll;
+  color: white;
+}
+.homepage__slider::-webkit-scrollbar {
+  display: none;
+}
+.homepage__slider > div {
+  margin-right: 2em;
+}

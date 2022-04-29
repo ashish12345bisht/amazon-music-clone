@@ -1,0 +1,13 @@
+.history__less {
+  width: 600px;
+  text-align: center;
+  margin: auto;
+  padding: 50px;
+  color:white;
+}
+.history__less h2{
+    font-size: 25px;
+}
+.history__less h4{
+    font-size: 20px;
+}

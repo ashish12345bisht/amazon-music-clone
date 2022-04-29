@@ -1,0 +1,14 @@
+body{
+    background-color:#333;
+}
+.homepage__slider{
+    display: flex;
+    overflow:scroll;
+    color:white;
+}
+.homepage__slider::-webkit-scrollbar {
+    display: none;
+}
+.homepage__slider>div{
+    margin-right: 2em;
+}

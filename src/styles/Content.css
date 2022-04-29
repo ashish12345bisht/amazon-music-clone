@@ -1,0 +1,42 @@
+.content__banner__bottom {
+  height: 400px;
+  background: url("https://m.media-amazon.com/images/S/dmp-catalog-images-prod/images/8758eb1c-1457-4758-ac9e-b869db7e853d/8758eb1c-1457-4758-ac9e-b869db7e853d-675762403._SX768_SY768_BL0_QL100__UX358_FMwebp_QL85_.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(50px) brightness(0.5);
+}
+.content__banner {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  height: 400px;
+  margin-top:-400px;
+  filter: blur(0px);
+  align-items: center;
+  padding-left:50px;
+  color: #fff;
+}
+.content__banner h1{
+    font-size:4em;
+    font-weight: 700;
+}
+.content__banner button{
+    border-radius: 20px;
+    font-size:1.5em;
+    padding:3px 10px;
+    color:white;background:#333;
+    border: none;
+    outline:none;
+}
+.content__banner button:hover{
+    transform:scale(1.05);
+}
+.content__banner>img{
+    width: 400px;
+}
+.buttons__container{
+    display: flex;
+    height: 45px;
+    width:240px;
+    justify-content: space-around;
+}
+

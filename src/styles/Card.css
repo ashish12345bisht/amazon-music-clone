@@ -1,0 +1,11 @@
+.custom__card{
+    width:200px;
+    text-align: center;
+}
+.custom__card::-webkit-scrollbar{
+    visibility:none;
+}
+.custom__card>img{
+    width:200px;
+    border-radius:1em;
+}

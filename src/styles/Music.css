@@ -1,0 +1,31 @@
+.music__buttons{
+    background-color: rgb(80, 80, 80);
+    color:white;
+    border-radius: 2em;
+    border:none;
+    margin-right: 1em;
+    padding:0.5em 1em;
+}
+.music__buttons:hover{
+    transform:scale(1.05);
+    color:#20C4E9;
+}
+
+.explore__button{
+    background-color: rgb(80, 80, 80);
+    color:white;
+    border-radius: 2em;
+    border:none;
+    margin-right: 1em;
+    padding:0.5em 1em;
+}
+.explore__button:hover{
+    transform:scale(1.05);
+    background-color:rgb(163, 163, 165);
+}
+.music__header ul{
+    display: flex;
+}
+.music__header li{
+    list-style-type: none;
+}
