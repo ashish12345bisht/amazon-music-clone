@@ -1,1 +1,1 @@
-Amazon Prime Clone UI only - no API added
+Amazon Music Clone UI only - no API added
