@@ -8,7 +8,7 @@ import PodcastComponent from "./components/PodcastComponent";
 import SAAComponent from "./components/SAAComponent";
 import Playlist from "./components/Playlist";
 import PodcastMiniComponent from "./components/PodcastMiniComponent";
-import Content from './components/Content'
+import Content from "./components/Content";
 
 function App() {
   return (
@@ -67,8 +67,8 @@ function App() {
               />
             }
           />
-          <Route path="/library/content" element={<Content/>} />
-          <Route path="*" element={<h1>No Page</h1>} />
+          <Route path="/library/content" element={<Content />} />
+          {/* <Route path="*" element={<h1>No Page</h1>} /> */}
         </Routes>
       </BrowserRouter>
     </div>
