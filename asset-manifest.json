@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/amazon-music-clone/static/css/main.d21448d4.css",
+    "main.js": "/amazon-music-clone/static/js/main.c4b147ee.js",
+    "index.html": "/amazon-music-clone/index.html",
+    "main.d21448d4.css.map": "/amazon-music-clone/static/css/main.d21448d4.css.map",
+    "main.c4b147ee.js.map": "/amazon-music-clone/static/js/main.c4b147ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d21448d4.css",
+    "static/js/main.c4b147ee.js"
+  ]
+}
